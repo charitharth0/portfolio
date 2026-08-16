@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charitharth Pandiri | AI & Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-content">
+      <span class="loader-status">Initializing portfolio</span>
+         <div class="loader-photo-wrap">
+           <img class="loader-photo" src="assets/profilee.png" alt="Profile photo" />
+         </div>
+      <h1 class="loader-name">CHARITHARTH PANDIRI</h1>
+      <div class="loader-percentage">
+        <span class="percentage">0%</span>
+      </div>
+      <div class="loader-bar-container">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-shell">
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+
+    <nav class="navbar">
+      <a class="brand" href="#top">
+        <span class="status-dot"></span>
+        <span class="brand-text">CHARITHARTH PANDIRI</span>
+      </a>
+      <div class="nav-links">
+        <a href="#projects">Archives</a>
+        <a href="#experience">Experience</a>
+        <a href="#stack">Modules</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <span class="badge">AI & FULL-STACK DEVELOPER</span>
+          <h1>Building intelligent products that feel effortless.</h1>
+          <p>
+            I’m a Computer Science undergraduate focused on deep learning, AI-driven web experiences, and clean full-stack development that turns ideas into dependable products.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-50 btn-primary">EXPLORE PROJECTS</a>
+            <a href="#contact" class="btn btn-50 btn-secondary">START A CONVERSATION</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight-card">
+              <strong>3+</strong>
+              <span>Hands-on projects</span>
+            </div>
+            <div class="highlight-card">
+              <strong>2</strong>
+              <span>Industry internships</span>
+            </div>
+            <div class="highlight-card">
+              <strong>AI</strong>
+              <span>Computer vision & NLP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div id="main-profile" class="main-profile" aria-hidden="true">
+            <img src="assets/profile.png" alt="Profile" />
+          </div>
+          <p class="panel-label">CURRENT FOCUS</p>
+          <h3>Designing practical AI solutions with modern interfaces.</h3>
+          <ul>
+            <li>Deep learning and computer vision workflows</li>
+            <li>Responsive full-stack web applications</li>
+            <li>Clear, measurable product thinking</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="section-intro">
+          <p class="eyebrow">ABOUT</p>
+          <h2>Crafting thoughtful software with a strong product mindset.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <h3>What I bring</h3>
+            <p>Strong foundations in software engineering, machine learning, and user-centered design, with the ability to move from concept to implementation.</p>
+          </article>
+          <article class="about-card">
+            <h3>Approach</h3>
+            <p>I enjoy building solutions that are reliable, scalable, and easy to use, whether it’s an AI tool, a web platform, or a data-driven workflow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">PROJECTS</p>
+            <h2>Featured work</h2>
+            <p class="subtitle">Select a category to filter the portfolio highlights.</p>
+          </div>
+
+          <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">ALL</button>
+            <button class="filter-btn" data-filter="ai">AI / ML</button>
+            <button class="filter-btn" data-filter="web">WEB</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="ai" data-page="sra.html">
+            <div class="card-meta">
+              <span>[PROJ-01]</span>
+              <span>2026</span>
+            </div>
+            <h3>SRA - Student Resume Analyzer</h3>
+            <p class="tagline">AI-powered resume evaluation with actionable insights</p>
+            <p class="desc">
+              An intelligent platform that analyzes resumes, extracts relevant keywords, and provides ATS-oriented recommendations to improve job readiness.
+            </p>
+            <div class="tags">
+              <span>AI / NLP</span><span>Python</span><span>REST APIs</span>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com" target="_blank">Code</a>
+              <a href="#">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ai" data-page="alertvision.html">
+            <div class="card-meta">
+              <span>[PROJ-02]</span>
+              <span>2026</span>
+            </div>
+            <h3>AlertVision Drowsiness Detector</h3>
+            <p class="tagline">Real-time fatigue monitoring using computer vision</p>
+            <p class="desc">
+              A driver monitoring solution that tracks facial cues and detects early signs of fatigue through real-time analysis and alerting logic.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>OpenCV</span><span>CNN</span><span>Flask</span>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com" target="_blank">Code</a>
+              <a href="#">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" data-page="camflow.html">
+            <div class="card-meta">
+              <span>[PROJ-03]</span>
+              <span>2025</span>
+            </div>
+            <h3>CamFlow Photo Editing App</h3>
+            <p class="tagline">Java-based full-stack image processing experience</p>
+            <p class="desc">
+              A feature-rich photo editor with live capture, filter controls, responsive UI, and backend image processing routes for a smoother workflow.
+            </p>
+            <div class="tags">
+              <span>Java</span><span>HTML/CSS</span><span>Flask</span><span>REST API</span>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com" target="_blank">Code</a>
+              <a href="#">Demo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <div class="section-intro">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Practical experience across AI and digital operations.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="timeline-badge">May 2025</div>
+            <h3>Central Institute of Tool Design</h3>
+            <p class="tagline">Deep Learning Project Intern</p>
+            <ul>
+              <li>Developed and refined predictive models for car price estimation.</li>
+              <li>Applied preprocessing and feature selection techniques for better performance.</li>
+              <li>Helped integrate frontend and backend flows for real-time evaluation.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-card">
+            <div class="timeline-badge">May 2025</div>
+            <h3>Aurobindo Pharma Limited</h3>
+            <p class="tagline">Digital Dept. Data Analytics Intern</p>
+            <ul>
+              <li>Analyzed and improved digital workflows in enterprise operations.</li>
+              <li>Worked with process data and digital management tools to drive efficiency.</li>
+              <li>Supported transformation initiatives across operational systems.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section reveal">
+        <div class="section-intro">
+          <p class="eyebrow">SKILLS</p>
+          <h2>Technical stack and education.</h2>
+        </div>
+        <div class="stack-grid">
+          <div class="stack-box">
+            <h4>Languages & Web</h4>
+            <ul>
+              <li>Java / Python</li>
+              <li>HTML / CSS / Bootstrap</li>
+              <li>REST APIs / Flask</li>
+            </ul>
+          </div>
+
+          <div class="stack-box">
+            <h4>Tools & Core Concepts</h4>
+            <ul>
+              <li>Git / GitHub / VS Code</li>
+              <li>OOP / DBMS / Operating Systems</li>
+              <li>Computer Networks / OpenCV</li>
+            </ul>
+          </div>
+
+          <div class="stack-box">
+            <h4>Academics & Certifications</h4>
+            <ul>
+              <li>B.Tech CSE: IARE (CGPA 7.55)</li>
+              <li>DSA Certification: GeeksforGeeks</li>
+              <li>Python Certification: NPTEL</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">CONTACT</p>
+            <h2>Open to full-stack, AI, and product-focused roles.</h2>
+            <p>Let’s build something useful, polished, and impactful together.</p>
+          </div>
+          <div class="contact-actions">
+            <a href="mailto:pcharitharth@gmail.com" class="btn btn-50 btn-primary">SEND EMAIL</a>
+            <a href="https://github.com" target="_blank" class="btn btn-50 btn-secondary">GITHUB</a>
+            <a href="https://linkedin.com" target="_blank" class="btn btn-50 btn-secondary">LINKEDIN</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <span>CHARITHARTH PANDIRI // +91 9398672934</span>
+        <span>Built with HTML, CSS & JavaScript</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
