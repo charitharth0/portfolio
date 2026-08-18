@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Prevent loader from running multiple times
+  if (document.body.dataset.loaderRun) return;
+  document.body.dataset.loaderRun = 'true';
+
   const loader = document.getElementById('loader');
   const loaderName = document.querySelector('.loader-name');
   const progressBar = document.querySelector('.progress-bar');

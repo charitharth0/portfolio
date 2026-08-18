@@ -741,6 +741,12 @@ body::before {
 #loader.hide {
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
+}
+
+#loader.hide::before,
+#loader.hide::after {
+  animation: none;
 }
 
 .loader-content {
